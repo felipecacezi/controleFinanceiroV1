@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: unset;
+    padding: unset;
+}
+body {
+    background-color: #dedede;
+}
+
+#sidebarMenu{
+    position: fixed;
+    height: -webkit-fill-available;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.bgGreen{
+    background-color: rgba(8,97,0,1)!important;
+}
+
+.nav-link {
+    color: #4c4c4c;
+}
+
+.nav-item:hover {
+    background-color: #dedede;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.principalBox{
+    margin-top: 1%;
+    height: 93vh;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    max-height: 93vh;
+    overflow-y: scroll;
+}
