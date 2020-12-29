@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: unset;
+    padding: unset;
+}
+body {
+    background: rgb(34,195,136);
+    background: -moz-linear-gradient(0deg, rgba(34,195,136,1) 0%, rgba(8,97,0,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34,195,136,1) 0%, rgba(8,97,0,1) 100%);
+    background: linear-gradient(0deg, rgba(34,195,136,1) 0%, rgba(8,97,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c388",endColorstr="#086100",GradientType=1);
+}
+
+.principal-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+    display: flex;    
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    color:#5a5a5a;
+    margin-bottom: 10%;
+}
+
+.btn-entrar{
+    width: 100%;
+}
